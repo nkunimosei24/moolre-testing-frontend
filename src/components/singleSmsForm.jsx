@@ -17,7 +17,7 @@ const SendSingleSMS = () => {
     setLoading(true);
     const {senderid, recipient, message} = form
     try {
-      const res = await api.get("/sms/singleSms", {
+      const res = await api.get("/api/sms/singleSms", {
         params : {
             senderid, 
             recipient,

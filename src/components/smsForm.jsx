@@ -32,7 +32,7 @@ const SendSMSForm = () => {
     setErrorMsg(null);
 
     try {
-      const response = await api.post("/sms/sendSMS", {
+      const response = await api.post("/api/sms/sendSMS", {
         senderid,
         messages
       });

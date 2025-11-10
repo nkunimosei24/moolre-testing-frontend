@@ -76,7 +76,7 @@ const handleTransfer = async(e) => {
     e.preventDefault()
     setTransferLoading(true)
     try {
-        const res = await api.post('/transfer/transfer', {
+        const res = await api.post('/api/transfer/transfer', {
             ...validatedData,
             amount,
             description
