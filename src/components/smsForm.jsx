@@ -45,7 +45,7 @@ const SendSMSForm = () => {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 p-6 border rounded shadow">
+    <div className="max-w-lg mx-auto mt-10 p-6 rounded shadow-lg">
       <h2 className="text-xl font-bold mb-4">Send SMS</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
