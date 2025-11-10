@@ -48,7 +48,7 @@ setLoading(true)
 
   
     try {
-        const res = await api.post('/transfer/validate', form)
+        const res = await api.post('/api/transfer/validate', form)
         
         if(res.data.success) {
             setValidatedData({
